@@ -30,6 +30,7 @@ public class ColorChangeViewController: UIViewController
     @IBAction func chromoClick(_ sender: UIButton) -> Void
     {
         self.view.backgroundColor = myColor.createRandomColor()
+        firstButton.backgroundColor = myColor.createRandomColor()
     }
     
 }
