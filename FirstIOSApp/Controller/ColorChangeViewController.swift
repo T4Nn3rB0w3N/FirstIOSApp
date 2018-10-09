@@ -10,6 +10,10 @@ import UIKit
 
 public class ColorChangeViewController: UIViewController
 {
+    private lazy var myColor : ColorTool = ColorTool()
+
+    @IBOutlet weak var firstButton: UIButton!
+
 
     public override func viewDidLoad() -> Void
     {
@@ -23,6 +27,10 @@ public class ColorChangeViewController: UIViewController
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func chromoClick(_ sender: UIButton) -> Void
+    {
+        self.view.backgroundColor = myColor.createRandomColor()
+    }
+    
 }
 
