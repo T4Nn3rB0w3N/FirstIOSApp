@@ -45,6 +45,9 @@
                                             <segment title="Normal"/>
                                             <segment title="Reversed"/>
                                         </segments>
+                                        <connections>
+                                            <action selector="swapBackgrounds:" destination="BYZ-38-t0r" eventType="touchDown" id="nx9-e3-Mtp"/>
+                                        </connections>
                                     </segmentedControl>
                                 </subviews>
                             </stackView>

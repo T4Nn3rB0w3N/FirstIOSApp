@@ -34,5 +34,10 @@ public class ColorChangeViewController: UIViewController
         firstButton.backgroundColor = myColor.createRandomColor()
     }
     
+    @IBAction func swapBackgrounds(_ sender: UISegmentedControl) -> Void
+    {
+        self.view.backgroundColor = firstButton.backgroundColor
+        firstButton.backgroundColor = self.view.backgroundColor
+    }
 }
 
