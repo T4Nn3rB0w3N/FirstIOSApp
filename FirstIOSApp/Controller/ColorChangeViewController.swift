@@ -14,7 +14,8 @@ public class ColorChangeViewController: UIViewController
 
     @IBOutlet weak var firstButton: UIButton!
 
-
+    @IBOutlet weak var firstStack: UIStackView!
+    
     public override func viewDidLoad() -> Void
     {
         super.viewDidLoad()
