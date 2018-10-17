@@ -15,6 +15,7 @@ public class ColorChangeViewController: UIViewController
     @IBOutlet weak var firstButton: UIButton!
 
     @IBOutlet weak var firstStack: UIStackView!
+    @IBOutlet weak var firstUISegmentedControl: UISegmentedControl!
     
     public override func viewDidLoad() -> Void
     {

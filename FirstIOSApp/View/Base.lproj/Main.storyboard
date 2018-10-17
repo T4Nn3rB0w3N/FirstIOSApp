@@ -58,6 +58,7 @@
                     <connections>
                         <outlet property="firstButton" destination="Awb-w5-N5U" id="An9-LQ-Np2"/>
                         <outlet property="firstStack" destination="u56-XL-E9O" id="UDr-gc-35A"/>
+                        <outlet property="firstUISegmentedControl" destination="HvJ-i6-k9n" id="Jng-G6-WaY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
